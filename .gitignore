@@ -1,0 +1,19 @@
+# Ignore everything by default; only code is tracked
+*
+!*/
+!.gitignore
+!README.md
+!*.py
+!*.ipynb
+!*.html
+!requirements.txt
+
+# Never track
+kaggle.json
+.idea/
+.notebook/
+myGUI/gui/Lib/
+myGUI/gui/Scripts/
+myGUI/gui/Include/
+myGUI/gui/etc/
+myGUI/gui/share/
